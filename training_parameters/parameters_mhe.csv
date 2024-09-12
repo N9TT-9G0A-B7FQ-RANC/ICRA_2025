@@ -1,0 +1,13 @@
+subsampling_dt,past_temporal_horizon,past_delay,smoothing,state_configuration,data,data_dt,,nb_data
+0.02,0.5,0.02,0,vanderpol,vanderpol_simulation,0.001,0,200
+0.02,1,0.02,0,vanderpol,vanderpol_simulation,0.001,1,200
+0.02,2,0.02,0,vanderpol,vanderpol_simulation,0.001,2,200
+0.02,4,0.02,0,vanderpol,vanderpol_simulation,0.001,3,200
+0.02,0.5,0.02,0,dof2,dof10_simulation,0.001,4,300
+0.02,1,0.02,0,dof2,dof10_simulation,0.001,5,300
+0.02,2,0.02,0,dof2,dof10_simulation,0.001,6,300
+0.02,4,0.02,0,dof2,dof10_simulation,0.001,7,300
+0.02,0.5,0.02,0,duffing,duffing_simulation,0.001,8,200
+0.02,1,0.02,0,duffing,duffing_simulation,0.001,9,200
+0.02,2,0.02,0,duffing,duffing_simulation,0.001,10,200
+0.02,4,0.02,0,duffing,duffing_simulation,0.001,11,200
