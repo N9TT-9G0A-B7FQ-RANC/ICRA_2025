@@ -7,11 +7,6 @@ def filter_mhe(past_temporal_horizon_value, data_value):
     mask = past_temporal_horizon_filter & data_filter
     return mhe_parameters[mask].index.values
 
-def filter_ukf(data_value):
-    data_filter = ukf_parameters['data'] == data_value
-    mask = data_filter
-    return ukf_parameters[mask].index.values
-
 def filter_method(past_temporal_horizon_value, future_temporal_horizon, data_value, version_value):
     past_temporal_horizon_filter = parameters['past_temporal_horizon'] == past_temporal_horizon_value
     data_filter = parameters['data'] == data_value
